@@ -175,6 +175,62 @@ class ResumeApp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10.0),
+              Wrap(
+                spacing: 10.0,
+                runSpacing: 5.0,
+                children: [
+                  Chip(
+                    backgroundColor: Colors.amber,
+                    label: Text(
+                      'Flutter',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  Chip(
+                    backgroundColor: Colors.amber,
+                    label: Text(
+                      'Dart',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  Chip(
+                    backgroundColor: Colors.amber,
+                    label: Text(
+                      'Java',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  Chip(
+                    backgroundColor: Colors.amber,
+                    label: Text(
+                      'Python',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  Chip(
+                    backgroundColor: Colors.amber,
+                    label: Text(
+                      'Git',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ]),
           ),
         ),
